@@ -1,0 +1,52 @@
+# Node.js, NestJS, ReactJS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/build/
+/dist/
+.env
+.env.local
+.env.*.local
+.cache/
+
+# PHP Composer
+/vendor/
+composer.lock
+
+# Symfony
+/var/
+/public/bundles/
+/translations/*/catalogue.*.*
+/config/jwt/
+/symfony.lock
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+.crc
+
+# Terragrunt
+.terragrunt-cache/
+
+# Golang
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.test
+*.out
+*.log
+
+# General sensitive files
+*.secret
+.vault_pass
+
+# OS and Editor specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
